@@ -1,0 +1,17 @@
+a:link {
+    text-decoration:none;
+}
+a{
+    color: #fff;
+    border-radius: 20px;
+}
+a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

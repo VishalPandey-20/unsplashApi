@@ -1,0 +1,257 @@
+.icons{
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.profile-img{
+    border-radius: 50%;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.vishal{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline;
+}
+
+.follow{
+    display: inline;
+    margin-left: 10px;
+    font-size: 10px;
+    /* background: blueviolet; */
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.full-img{
+    /* width: 70vw;
+    height: 70vh; */
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+.feature-card{
+    object-fit: cover;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.view{
+    color: blueviolet;
+    cursor: pointer;
+}
+.heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.one{
+    margin: 2px 0 3px 10px;
+    font-size: 10px;
+}
+.chat{
+    margin-left: 15px;
+}
+.doler{
+    margin-left: 15px;
+    font-size: 12px;
+}
+.num-text{
+    /* margin-left: 15px; */
+    font-size: 10px;
+}
+.card-padding{
+    padding: 15px;
+    border: 1px solid wheat;
+    box-shadow: 3px 5px 15px 5px #00000026;
+    margin: 10px 0;
+    background: #fff;
+}
+.add-view{
+    margin: 5px 0 0 0;
+    font-size: 10px;
+}
+.add{
+    margin: 0;
+    font-size: 12px;
+    color: blueviolet;
+}
+
+.sendtip{
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.dolor-2{
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: blueviolet;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.dolor-2 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.send-text{
+    margin: 5px 5px 10px 0;
+    color: #fff;
+    padding-right: 10px;
+}
+.send-text span{
+    font-size: 14px;
+    color: #fff;
+}
+.diamond{
+    display: inline;
+    background: blueviolet;
+    margin: 0 10px 0 0;
+    border-radius: 50%;
+}
+.diamond svg{
+    width: 20px;
+    height: 12px;
+    /* color: blueviolet; */
+    color: #fff;
+}
+
+.diamond svg::after {
+    content: " - Remember this";
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+}
+.dot{
+    width: 5px;
+    height: 5px;
+    border: 1px solid black;
+    margin-bottom: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    background: black;
+}
+/* .all-containt{
+    overflow: scroll;
+    height: 90vh;
+} */
+.all-containt::-webkit-scrollbar {
+    display: none;
+}
+.feature-img{
+    object-fit: cover;
+    position: relative;
+    width: 18vw;
+    height: 25vh;
+    margin: 10px 0;
+    background: url('https://res.cloudinary.com/fanzly/image/upload/c_thumb,b_white/q_auto/fanzly/users/profiles/kiklcwhi7gl0gvvjdzjw.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.full-img-div{
+    width: 55vw;
+    height: 50vh;
+    margin: auto;
+}
+.marginforallcontaint{
+    margin: 0px 25px;
+}
+.all-containt-featufe{
+    position: relative;
+    padding: 0;
+    /* margin: 0 30px; */
+}
+.position-sticky {
+    /* position: -webkit-sticky; Safari */
+    position: sticky;
+    top: 15px;
+}
+.footer-img{
+    width: 30px;
+    height: 30px;
+    /* background: black; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    border-radius: 50%;
+}
+.footer-and-img{
+    background: #0000005e;
+    width: 18vw;
+    height: 5.5vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+.name{
+    margin: 2px 0 0 40px;
+    display: inline-block;
+    color: #fff;
+}
+.main{
+    height: 100vh;
+    overflow: scroll;
+    background: #f1f1f1;
+    /* overflow-x: hidden; */
+}
+.icon{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+    gap: 20px;
+}
+
+.userName{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.secDivOfUserName{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.month{
+    font-size: 10px;
+}
+.headerformargin{
+    z-index: 99999;
+    background: #fff;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.loading{
+    height: 100vh;
+}
+.main::-webkit-scrollbar{
+    width: 8px;
+}
+.main::-webkit-scrollbar-thumb {
+    background-color: #485164;
+    border-radius: 100px;
+}
+.main::-webkit-scrollbar-thumb:hover {
+    background: hsl(220, 98%, 61%);
+}

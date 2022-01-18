@@ -1,0 +1,1 @@
+export const fanZalyLogo = "/img/logo.svg";
